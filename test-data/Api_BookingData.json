@@ -1,0 +1,24 @@
+{
+    "tokenurl": "https://restful-booker.herokuapp.com/auth",
+
+    "PostRequest": {
+        "firstname": "nicklos",
+        "lastname": "jazz",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2026-08-04",
+            "checkout": "2026-08-05"
+        },
+        "additionalneeds": "Breakfast"
+    },
+    "PatchRequest": {
+        "firstname": "vived",
+        "lastname": "richard"
+    },
+    "tokenRequestBody": {
+        "username": "admin",
+        "password": "password123"
+    }
+    
+}
